@@ -1,7 +1,19 @@
-.tox
+# Django
+*.log
+*.pot
+*.pyc
 __pycache__
+db.sqlite3
+media
+
+# Unit test / coverage reports
+.tox
 .pytest_cache
 .coverage
 .mypy_cache
 .venv
 .idea
+
+# Environments 
+.env 
+.venv 
